@@ -1,1 +1,1 @@
-prefix =qwe "dev-test"
+prefix = "dev-test"
