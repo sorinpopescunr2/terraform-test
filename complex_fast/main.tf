@@ -15,7 +15,7 @@ terraform {
 
 # providers can have required variables themselves (ie. provider.aws.region)
 provider "aws" {
-  region = "orice"
+  region = "oricewrwer"
 }
 
 resource "aws_iam_user" "user" {
