@@ -1,1 +1,1 @@
-prefix = "dev-test-sorin"
+prefix = "dev-test"
