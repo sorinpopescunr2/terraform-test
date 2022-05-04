@@ -11,7 +11,7 @@ variable "iam_user_name" {
   type = string
   sensitive = true
   nullable = false
-  default = "Marele Spop"
+  default = "defaultSorin"
 }
 
 variable "additional_tags" {
