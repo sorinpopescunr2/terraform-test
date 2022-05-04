@@ -20,7 +20,7 @@ terraform {
 
 provider "aws" {}
 
-resource "aws_iam_user" "aauser" {
+resource "aws_iam_user" "user" {
   name = "${var.prefix}_${var.iam_user_name}"
   tags = merge(
     var.additional_tags,
@@ -31,7 +31,7 @@ resource "aws_iam_user" "aauser" {
 }
 
 resource "aws_iam_access_key" "user" {
-  user = aws_iam_user.aauser.name
+  user = aws_iam_user.user.name
 }
 
 resource "aws_s3_bucket" "bucket" {
@@ -48,7 +48,7 @@ resource "aws_s3_bucket" "bucket" {
 
 resource "aws_iam_user_policy" "user_policy" {
   name = "${var.prefix}_ImageBuilderAccess"
-  user = aws_iam_user.aauser.name
+  user = aws_iam_user.user.name
 
   policy = jsonencode({
     Version = "2012-10-17"
