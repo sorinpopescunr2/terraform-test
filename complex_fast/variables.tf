@@ -7,6 +7,55 @@ variable "prefix" {
 
 variable "restag" {}
 
+variable "a01test" {
+  default = "Sorin01"
+}
+variable "a02test" {
+  default = "Sorin02"
+}
+variable "a03test" {
+  default = "Sorin02"
+}
+variable "a04test" {
+  default = "Sorin04"
+}
+variable "a05test" {
+  default = "Sorin05"
+}
+variable "a06test" {
+  default = "Sorin06"
+}
+variable "a07test" {
+  default = "Sorin07"
+}
+variable "a08test" {
+  default = "Sorin08"
+}
+variable "a09test" {
+  default = "Sorin09"
+}
+variable "a10test" {
+  default = "Sorin10"
+}
+variable "a11test" {
+  default = "Sorin11"
+}
+variable "a12test" {
+  default = "Sorin12"
+}
+variable "a13test" {
+  default = "Sorin13"
+}
+variable "a14test" {
+  default = "Sorin14"
+}
+variable "a15test" {
+  default = "Sorin15"
+}
+variable "a16test" {
+  default = "Sorin16"
+}
+
 variable "iam_user_name" {
   type = string
   sensitive = true
