@@ -1,1 +1,1 @@
-prefix =test "dev-test"
+prefix = "dev-test"
