@@ -49,10 +49,16 @@ variable "a13test" {
 variable "a14test" {
   default = "Sorin14"
 }
-variable "a15test" {
+variable "b15test" {
   default = "Sorin15"
 }
-variable "a16test" {
+variable "b16test" {
+  default = "Sorin16"
+}
+variable "C15test" {
+  default = "Sorin15"
+}
+variable "DD16test" {
   default = "Sorin16"
 }
 
