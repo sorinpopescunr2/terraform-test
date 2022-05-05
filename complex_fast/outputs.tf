@@ -78,5 +78,5 @@ output "prefix09" {
   value = var.prefix
 }
 output "prefix11" {
-  value = var.prefix
+  value = "FIXEDEEEEE"
 }
