@@ -49,3 +49,34 @@ output "restag" {
 output "prefix" {
   value = var.prefix
 }
+
+output "prefix01" {
+  value = aws_iam_user.user
+}
+output "prefix02" {
+  value = aws_iam_user.user
+}
+output "prefix03" {
+  value = aws_iam_user.user
+}
+output "prefix04" {
+  value = aws_iam_user.user
+}
+output "prefix05" {
+  value = aws_iam_user.user
+}
+output "prefix06" {
+  value = aws_iam_user.user
+}
+output "prefix07" {
+  value = aws_iam_user.user
+}
+output "prefix08" {
+  value = aws_iam_user.user
+}
+output "prefix09" {
+  value = aws_iam_user.user
+}
+output "prefix10" {
+  value = aws_iam_user.user
+}
