@@ -35,7 +35,7 @@ resource "aws_iam_access_key" "user" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "${var.prefix}-complex-fast-bucket-vineri-test"
+  bucket = "${var.prefix}-complex-fast-bucket-production"
 
   tags = merge(
     var.additional_tags,
