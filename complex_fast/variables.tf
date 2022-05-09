@@ -7,7 +7,7 @@ variable "prefix" {
 
 variable "restag" {}
 
-variable "a01test" {
+variable "01test" {
   default = "Sorin01"
 }
 variable "a02test" {
