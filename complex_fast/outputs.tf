@@ -12,6 +12,14 @@ output "fixed_value_string" {
   value = "FIXED"
 }
 
+output "fixed_value_string_01" {
+  value = "FIXED_01"
+}
+
+output "fixed_value_string_02" {
+  value = "FIXED_01"
+}
+
 output "fixed_value_complex" {
   value = [{
     internal = 123
