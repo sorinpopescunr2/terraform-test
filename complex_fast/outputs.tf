@@ -13,11 +13,11 @@ output "fixed_value_string" {
 }
 
 output "fixed_value_string_01" {
-  value = "FIXED_01"
+  value = "FIXED_01_updated"
 }
 
 output "fixed_value_string_02" {
-  value = "FIXED_01"
+  value = "FIXED_02"
 }
 
 output "fixed_value_complex" {
