@@ -54,6 +54,6 @@ output "restag" {
   value = var.restag
 }
 
-output "prefixPRODeee" {
+output "prefix01" {
   value = var.prefix
 }
