@@ -57,3 +57,7 @@ output "restag" {
 output "prefix01" {
   value = var.prefix
 }
+
+output "prefix02" {
+  value = var.prefix
+}
