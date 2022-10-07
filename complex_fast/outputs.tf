@@ -73,7 +73,3 @@ output "prefix04" {
 output "prefix05" {
   value = var.prefix
 }
-
-output "prefix07" {
-  value = var.prefix
-}
