@@ -58,6 +58,6 @@ output "prefix01" {
   value = var.prefix
 }
 
-output "prefix02" {
+output "prefix03" {
   value = var.prefix
 }
