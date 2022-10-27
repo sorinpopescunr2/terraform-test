@@ -21,7 +21,7 @@ provider "aws" {
 # provider "aws" {}
 
 resource "aws_iam_user" "user" {
-  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x1"
+  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2"
   tags = merge(
     var.additional_tags,
     {
