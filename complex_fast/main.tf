@@ -13,7 +13,7 @@ terraform {
   }
 }
 
-providers can have required variables themselves (ie. provider.aws.region)
+#   providers can have required variables themselves (ie. provider.aws.region)
 provider "aws" {
   region = "eu-west-1"
 }
