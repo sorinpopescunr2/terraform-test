@@ -18,8 +18,6 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-provider "aws" {}
-
 resource "aws_iam_user" "user" {
   name = "${var.prefix}_${var.iam_user_name}"
   tags = merge(
