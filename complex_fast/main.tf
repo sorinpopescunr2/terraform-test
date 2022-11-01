@@ -61,3 +61,17 @@ resource "aws_iam_user_policy" "user_policy" {
     ]
   })
 }
+
+resource "aws_iam_user" "user_ale" {
+  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2_ale"
+  tags = merge(
+    var.additional_tags,
+    {
+      Source: var.restag
+    },
+  )
+}
+
+resource "aws_iam_access_key" "user_ale" {
+  user = aws_iam_user.user_ale.name
+}
