@@ -62,8 +62,8 @@ resource "aws_iam_user_policy" "user_policy" {
   })
 }
 
-resource "aws_iam_user" "user_ale" {
-  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2_ale"
+resource "aws_iam_user" "user_alex" {
+  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2_alex"
   tags = merge(
     var.additional_tags,
     {
@@ -72,6 +72,6 @@ resource "aws_iam_user" "user_ale" {
   )
 }
 
-resource "aws_iam_access_key" "user_ale" {
-  user = aws_iam_user.user_ale.name
+resource "aws_iam_access_key" "user_alex" {
+  user = aws_iam_user.user_alex.name
 }
