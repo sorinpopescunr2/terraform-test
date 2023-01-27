@@ -72,6 +72,6 @@ resource "aws_iam_user" "user_alex_test_2" {
   )
 }
 
-resource "aws_iam_access_key" "user_alex_test_1_retest_stage" {
+resource "aws_iam_access_key" "user_alex_test_1_retest_stage_qwerty" {
   user = aws_iam_user.user_alex_test_2.name
 }
