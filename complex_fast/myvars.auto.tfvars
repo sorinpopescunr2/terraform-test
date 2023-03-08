@@ -1,1 +1,1 @@
-prefix = "dev-test{{env.unique}}"
+prefix = "dev-test"
