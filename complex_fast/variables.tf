@@ -1,7 +1,7 @@
 variable "prefix" {
   type = string
   description = "All the resource names will be prefixed with this string."
-  default = "devtest{{env.unique}}"
+  default = "prefix{{env.unique}}"
   nullable = false
 }
 
@@ -9,6 +9,7 @@ variable "restag" {}
 
 variable "iam_user_name" {
   type = string
+  default = "user{{env.unique}}"
   sensitive = true
   nullable = false
 }
