@@ -9,7 +9,6 @@ variable "restag" {}
 
 variable "iam_user_name" {
   type = string
-  default = "{{env.unique}}"
   sensitive = true
   nullable = false
 }
