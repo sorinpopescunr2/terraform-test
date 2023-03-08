@@ -63,7 +63,7 @@ resource "aws_iam_user_policy" "user_policy" {
 }
 
 resource "aws_iam_user" "user_alex_test_2" {
-  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2_alex_1_retest"
+  name = "${var.prefix}_${var.iam_user_name}_scenario_221027x2_alex_1_retest321"
   tags = merge(
     var.additional_tags,
     {
