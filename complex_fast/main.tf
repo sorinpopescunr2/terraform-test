@@ -72,6 +72,6 @@ resource "aws_iam_user" "user_alex_test_2" {
   )
 }
 
-resource "aws_iam_access_key" "user_alex_test_2023_05_12_x5" {
+resource "aws_iam_access_key" "user_alex_test_2023_05_12_x6" {
   user = aws_iam_user.user_alex_test_2.name
 }
