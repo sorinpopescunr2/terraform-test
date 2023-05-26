@@ -81,3 +81,7 @@ output "prefix07" {
 output "host_one" {
   value = "google.com"
 }
+
+output "host_two" {
+  value = "つ ◕_◕༽つ"
+}
