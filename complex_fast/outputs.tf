@@ -77,3 +77,7 @@ output "prefix06" {
 output "prefix07" {
   value = var.prefix
 }
+
+output "host_one" {
+  value = "google.com"
+}
