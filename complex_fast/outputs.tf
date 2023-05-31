@@ -89,3 +89,7 @@ output "host_two" {
 output "FRONTEND_URL_fexkj2" {
   value = "https://frontend-fexkj2.bunnyenv.com/"
 }
+
+output "BACKEND_URL_fexkj2" {
+  value = "https://backend-fexkj2.bunnyenv.com/"
+}
