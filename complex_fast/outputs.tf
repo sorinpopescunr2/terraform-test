@@ -85,3 +85,7 @@ output "host_one" {
 output "host_two" {
   value = "つ ◕_◕༽つ"
 }
+
+output "FRONTEND_URL_" {
+  value = "https://frontend-fexkj2.bunnyenv.com/"
+}
