@@ -1,4 +1,4 @@
-variable "prefix" {
+variable "aprefix" {
   type = string
   description = "All the resource names will be prefixed with this string."
   default = "devtest"
