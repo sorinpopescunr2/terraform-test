@@ -90,6 +90,6 @@ output "FRONTEND_URL_fexkj2" {
   value = "https://frontend-fexkj2.bunnyenv.com/"
 }
 
-output "BACKEND_URL_fexkj2" {
+output "BACKEND_URL_fexkj2new_tf" {
   value = "https://backend-fexkj2.bunnyenv.com/"
 }
