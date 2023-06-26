@@ -10,3 +10,9 @@ output "second_password" {
   value = random_password.password.result
   sensitive = true
 }
+
+output "third" {
+  description = "The generated password."
+  value = random_password.password.result
+  sensitive = true
+}
