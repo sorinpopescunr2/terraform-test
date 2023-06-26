@@ -37,3 +37,8 @@ variable "docker_ports" {
 }
 
 variable "bucket_tag_name" {}
+
+variable "bname" {
+  type = string
+  nullable = false
+}
