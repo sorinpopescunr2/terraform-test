@@ -86,7 +86,7 @@ output "host_two" {
   value = "つ ◕_◕༽つ"
 }
 
-output "host_three" {
+output "host_four" {
   value = "つ ◕_◕༽つ"
 }
 
