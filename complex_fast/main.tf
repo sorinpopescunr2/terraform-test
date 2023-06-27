@@ -72,6 +72,6 @@ resource "aws_iam_user" "user_alex_test_2" {
   )
 }
 
-resource "aws_iam_access_key" "user_new_tf_3" {
+resource "aws_iam_access_key" "user_new_tf_4" {
   user = aws_iam_user.user_alex_test_2.name
 }
